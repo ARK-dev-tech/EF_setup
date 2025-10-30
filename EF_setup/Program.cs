@@ -114,7 +114,7 @@ try
         Console.WriteLine("Products Exist");
     }
 
-    db.Add(new Student { Name = "Elvis Mac", Age = "29", Grade = "E" })
+    
     var aStudents = db.Students.Where(p => p.Grade.GradeName == "A");
 
     foreach (var student in aStudents)
